@@ -1,45 +1,81 @@
-<html>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <h1>papers we have discussed</h1>
+  
+    <title>Bootstrap Tutorial Sample Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
   </head>
-  <body>
+<body>
+	<nav class="navbar navbar-expand-md">
+  <!---a class="navbar-brand" href="#">Logo</a>--->
+  <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="main-navigation">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href=./index.html>Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./people.html">People</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./publications.html">Publications</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href=./reading_group.html>Reading Group</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+    <div class="body">
+      <h1>List of the papers we have read</h1>
+      <p>
+          "Attention Is All You Need" - <a href="https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf" target="_blank" style="color:orange">link</a><br/>
 
-		"Attention Is All You Need" - <a href="https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf" target="_blank">link</a><br/>
+          "Exploring the Utility of Community-Generated Social Media Content for Detecting Depression: An Analytical Study on Instagram" - <a href="https://www.jmir.org/2018/12/e11817/pdf" target="_blank" style="color:orange">link</a><br/>
 
-		"Exploring the Utility of Community-Generated Social Media Content for Detecting Depression: An Analytical Study on Instagram" - <a href="https://www.jmir.org/2018/12/e11817/pdf" target="_blank">link</a><br/>
+          "Exponential Family Embeddings" - <a href="https://arxiv.org/pdf/1608.00778.pdf" target="_blank" style="color:orange">link</a><br/>
 
-		"Exponential Family Embeddings" - <a href="https://arxiv.org/pdf/1608.00778.pdf" target="_blank">link</a><br/>
+          "Relational inductive biases, deep learning, and graph networks" - <a href="https://arxiv.org/pdf/1806.01261.pdf" target="_blank" style="color:orange">link</a><br/>
 
-		"Relational inductive biases, deep learning, and graph networks" - <a href="https://arxiv.org/pdf/1806.01261.pdf" target="_blank">link</a><br/>
+          "Loss in Translation: Learning Bilingual Word Mapping with a Retrieval Criterion" - <a href="https://arxiv.org/pdf/1804.07745.pdf" target="_blank" style="color:orange">link</a><br/>
 
-		"Loss in Translation: Learning Bilingual Word Mapping with a Retrieval Criterion" - <a href="https://arxiv.org/pdf/1804.07745.pdf" target="_blank">link</a><br/>
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding" - <a href="https://arxiv.org/pdf/1810.04805.pdf" target="_blank" style="color:orange">link</a><br/>
 
-		"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding" - <a href="https://arxiv.org/pdf/1810.04805.pdf" target="_blank">link</a><br/>
+          "Enquiring Minds: Early Detection of Rumors in Social
+          Media from Enquiry Posts" - <a href="http://www-personal.umich.edu/~qmei/pub/www2015-zhao.pdf" target="_blank" style="color:orange">link</a><br/>
 
-		"Enquiring Minds: Early Detection of Rumors in Social
-		Media from Enquiry Posts" - <a href="http://www-personal.umich.edu/~qmei/pub/www2015-zhao.pdf" target="_blank">link</a><br/>
+          "The Geometry of Culture: Analyzing Meaning through Word Embeddings" - <a href="https://arxiv.org/ftp/arxiv/papers/1803/1803.09288.pdf" target="_blank" style="color:orange">link</a><br/>
 
-		"The Geometry of Culture: Analyzing Meaning through Word Embeddings" - <a href="https://arxiv.org/ftp/arxiv/papers/1803/1803.09288.pdf" target="_blank">link</a><br/>
+          "DeClarE: Debunking Fake News and False Claims
+          using Evidence-Aware Deep Learning" - <a href="http://aclweb.org/anthology/D18-1003" target="_blank" style="color:orange">link</a><br/>
 
-		"DeClarE: Debunking Fake News and False Claims
-		using Evidence-Aware Deep Learning" - <a href="http://aclweb.org/anthology/D18-1003" target="_blank">link</a><br/>
+          "Towards Robust and Privacy-preserving Text Representations" - <a href="http://aclweb.org/anthology/P18-2005" target="_blank" style="color:orange">link</a><br/>
 
-		"Towards Robust and Privacy-preserving Text Representations" - <a href="http://aclweb.org/anthology/P18-2005" target="_blank">link</a><br/>
+          "Neural Machine Translation by Jointly Learning to Align and Translate" - <a href="https://arxiv.org/pdf/1409.0473.pdf" target="_blank" style="color:orange">link</a><br/>
+          
+          "Word Embeddings Quantify 100 Years of Gender and Ethnic Stereotypes" - <a href="https://arxiv.org/pdf/1711.08412.pdf" target="_blank" style="color:orange">link</a><br/>
+          
+          "Lipstick on a Pig: Debiasing Methods Cover up Systematic Gender Biases in Word Embeddings But do not Remove Them" - <a href="https://arxiv.org/pdf/1903.03862.pdf" target="_blank" style="color:orange">link</a><br/>
+          
+          "Hierarchical Attention Networks for Document Classification" - <a href="https://www.aclweb.org/anthology/N16-1174" target="_blank" style="color:orange">link</a><br/>
+        
+          "Asking the Right Question: Inferring Advice-Seeking Intentions from Personal Narratives" - <a href="https://arxiv.org/pdf/1904.01587.pdf target="_blank" style="color:orange">link</a><br/>
+          
+          "The Language of Legal and Illegal Activity on the Darknet" - <a href="https://arxiv.org/pdf/1905.05543.pdf" target="_blank" style="color:orange">link</a><br/>
+          
+      </p>
+    </div>
 
-		"Neural Machine Translation by Jointly Learning to Align and Translate" - <a href="https://arxiv.org/pdf/1409.0473.pdf" target="_blank">link</a><br/>
-	  
-		"Word Embeddings Quantify 100 Years of Gender and Ethnic Stereotypes" - <a href="https://arxiv.org/pdf/1711.08412.pdf" target="_blank">link</a><br/>
-	  
-		"Lipstick on a Pig: Debiasing Methods Cover up Systematic Gender Biases in Word Embeddings But do not Remove Them" - <a href="https://arxiv.org/pdf/1903.03862.pdf" target="_blank">link</a><br/>
-	  
-		"Hierarchical Attention Networks for Document Classification" - <a href="https://www.aclweb.org/anthology/N16-1174" target="_blank">link</a><br/>
-	  
-	  	"Asking the Right Question: Inferring Advice-Seeking Intentions from Personal Narratives" - <a href="https://arxiv.org/pdf/1904.01587.pdf target="_blank">link</a><br/>
-	  	
-	  	"The Language of Legal and Illegal Activity on the Darknet" - <a href="https://arxiv.org/pdf/1905.05543.pdf" target="_blank">link</a><br/>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-	</body>
+
+<script src="main.js"></script>
+</body>
+</html>
