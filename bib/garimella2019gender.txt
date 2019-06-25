@@ -1,6 +1,0 @@
-@inproceedings{garimella2019gender,
-  title={Gender Bias in Part-of-Speech Tagging and Dependency Parsing Data},
-  author={Garimella, Aparna and Banea, Carmen and Hovy, Dirk and Mihalcea, Rada},
-  booktitle={Proceedings of the 2018 Conference of the Association for Computational Linguistics},
-  year={2019}
-}
